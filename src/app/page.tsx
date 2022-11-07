@@ -1,11 +1,11 @@
 import Button from "../components/Button";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <>
-      <h1>Wassup</h1>
+    <main>
+      <h1>Welcome</h1>
       <Button where="hello" />
       <Button where="prisma" />
-    </>
+    </main>
   );
 }
