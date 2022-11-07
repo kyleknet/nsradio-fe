@@ -9,7 +9,7 @@
     "lint": "next lint",
     "typecheck": "tsc",
     "format": "prettier --write .",
-    "generate": "prisma generate"
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@prisma/client": "^4.5.0",
