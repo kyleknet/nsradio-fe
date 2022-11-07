@@ -6,6 +6,7 @@ export default function HomePage() {
       <h1>Welcome</h1>
       <Button where="hello" />
       <Button where="prisma" />
+      <p>wot</p>
     </main>
   );
 }
