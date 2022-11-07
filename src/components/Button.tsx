@@ -5,7 +5,7 @@ type Props = {
 };
 
 export default function Button({ where }: Props) {
-  const apiTest = async () => {
+  async function apiTest() {
     const data = await fetch(`/api/${where}`, {
       method: "GET",
       headers: {
@@ -15,7 +15,7 @@ export default function Button({ where }: Props) {
     });
     const res = await data.json();
     console.log(res);
-  };
+  }
 
   return <button onClick={apiTest}>click me {where}</button>;
 }
