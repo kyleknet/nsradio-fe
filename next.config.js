@@ -8,4 +8,5 @@ const config = {
   },
   experimental: { appDir: true },
 };
-export default config;
+
+module.exports = config
